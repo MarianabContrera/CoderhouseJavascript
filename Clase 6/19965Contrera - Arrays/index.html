@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega Clase 6 -  ARRAYS</title>
+     <!--Tipografía-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <meta name="keywords" content="Reserva de hotel reservas vacaciones playa">
+      <!--Bootstrap CSS-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+ 
+      <!--estilos CSS-->
+     <link rel="stylesheet" href="./css/estilos.css">
+
+    <!--Javascript-->
+     <script src="./js/miarchivo.js"> </script> 
+
+</head>
+<body>
+    <header>     
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html"><img src="./imagenes/logo.png" alt="Logo Smile Givers" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">SOBRE NOSOTROS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href=""> HABITACIONES </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">RESERVAR</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">CONTACTO</a>
+                </li>
+                
+                    <a class="iniciaSesion" href="">INICIAR SESIÓN</a>
+                
+                </ul>
+            </div>
+            </div>
+        </nav>
+</header>
+
+<main>       
+    <section class="heroSection">
+        <div class="row mx-4">
+            <div class="col-12 col-md-6">
+                <h1 class="herotitle">MACEIÓ</h1>
+            </div>
+        </div>
+    </section>
+
+    <div class="container-fluid my-5">
+        <div class="row justify-content-evenly">
+            <div class="col-12 col-sm-4"> 
+              <h1>SOBRE NOSOTROS</h1>
+            </div>
+            <div class="col-12 col-sm-4">
+                <p class="sobrenosotros"> Situados a escasos minutos del centro de la ciudad y con salida directa a la playa, somos un hotel de diseño y de vanguardia, con personalidad propia, que busca sorprender ofreciendo a sus visitantes experiencias nuevas.</p>  
+            </div>    
+        </div>
+    </div>
+
+    <div class="container">                    
+        <div class="gallery-wrap">
+          <div class="item item-1"></div>
+          <div class="item item-2"></div>
+          <div class="item item-3"></div>
+          <div class="item item-4"></div>
+          <div class="item item-5"></div>
+        </div>
+    </div>
+
+    <div class="container.fluid habitaciones my-5">
+        <div class="row justify-content-evenly">
+            <h1>HABITACIONES</h1>
+            <div class="card" style="width: 18rem;">
+                <img src="./imagenes/hindividual.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Habitación Individual</h5>
+                  <p class="card-text">Habitación más accesible del Salinas Maceió, el Apartamento estándar ofrece la mejor relación costo-beneficio para que pueda disfrutar con un máximo de 3 ocupantes.</p>
+                  <a href="#" class="btn btn-info">Reservar</a>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <img src="./imagenes/hdoble.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Habitación Doble</h5>
+                  <p class="card-text">Los apartamentos superiores están cerca del mar y tienen una conformación fija de dos camas dobles, con capacidad hasta máxima de cuatro ocupantes.</p>
+                  <a href="#" class="btn btn-info">Reservar</a>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <img src="./imagenes/hfamiliar.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Habitación Familiar</h5>
+                  <p class="card-text">Con 2 ambientes, 2 cuartos y 2 baños, la suite familiar asegura más espacio y privacidad para las familias, y es la habitación más amplia de todo el resort. </p>
+                  <a href="#" class="btn btn-info">Reservar</a>
+                </div>
+              </div>
+        </div>
+    </div>
+
+    <div class="container.fluid reserva my-5 p-3">
+        <div class="row">
+            <h2>RESERVAR</h2>
+
+            <!-- Aca va a ir el calendario de reserva con fecha y dias para completar -->
+
+        </div>
+    </div>
+
+    <div class="container.fluid contacto">
+        <div class="row">
+            <h1>CONTACTO</h1>
+            
+            
+
+        </div>
+    </div>
+
+
+
+
+
+    <footer>
+        <section class="footerSection">
+                <a href=""><img src="./imagenes/facebook.svg" class="iconosRedes" alt="Facebook"></a>
+                <a href=""><img src="./imagenes/instagram.svg" class="iconosRedes" alt="Instagram"></a>
+                <a href=""><img src="./imagenes/twitter.svg" class="iconosRedes" alt="twitter"></a>
+        </section>
+    </footer>
+    
+
+</main>
+
+     
+</body>
+</html>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega Proyecto Final 1</title>
+    <!--Tipografía-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta name="keywords" content="Reserva de hotel reservas vacaciones playa">
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    
+      <!--estilos CSS-->
+     <link rel="stylesheet" href="./css/estilos.css">
+
+     <link type="text/css" rel="stylesheet" href="css/tailwind.min.css"  media="screen,projection"/>
+
+</head>
+<body>
+    <header id="header">     
+        <nav class="navbar navbar-expand-lg navbar-light navegacion">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html"><img src="./imagenes/logo.png" alt="Logo Smile Givers" class="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">SOBRE NOSOTROS</a> 
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href=""> HABITACIONES </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">RESERVAR</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">CONTACTO</a>
+                </li>
+                
+                    <a class="iniciaSesion" href="">RESERVAS</a>
+                
+                </ul>
+            </div>
+            </div>
+        </nav>
+</header>
+
+<main>       
+    <section class="heroSection">
+        <div class="row mx-4">
+            <div class="col-12 col-md-6 contenido-hero">
+                <h2 class="herotitle">MACEIÓ</h2>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="container-fluid my-5" id="sobrenosotros">
+        <div class="row justify-content-evenly">
+            <div class="col-12 col-sm-4"> 
+              <h1>SOBRE NOSOTROS</h1>
+            </div>
+            <div class="col-12 col-sm-4">
+                <p class="sobrenosotros"> Situados a escasos minutos del centro de la ciudad y con salida directa a la playa, somos un hotel de diseño y de vanguardia, con personalidad propia, que busca sorprender ofreciendo a sus visitantes experiencias nuevas.</p>  
+            </div>    
+        </div>
+    </div>
+
+    <div class="container">                    
+        <div class="gallery-wrap">
+          <div class="item item-1"></div>
+          <div class="item item-2"></div>
+          <div class="item item-3"></div>
+          <div class="item item-4"></div>
+          <div class="item item-5"></div>
+        </div>
+    </div>
+
+    <div class="container.fluid habitaciones my-5" id="habitaciones">
+        <div class="row justify-content-evenly">
+            <h1>HABITACIONES</h1>
+            <div class="card" style="width: 18rem;">
+                <img src="./imagenes/hindividual.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Habitación Individual</h5>
+                  <p class="card-text">Habitación más accesible del Salinas Maceió, el Apartamento estándar ofrece la mejor relación costo-beneficio para que pueda disfrutar con un máximo de 3 ocupantes.</p>
+                  <a href="#" class="btn btn-info">VER MÁS</a>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <img src="./imagenes/hdoble.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Habitación Doble</h5>
+                  <p class="card-text">Los apartamentos superiores están cerca del mar y tienen una conformación fija de dos camas dobles, con capacidad hasta máxima de cuatro ocupantes.</p>
+                  <a href="#" class="btn btn-info">VER MÁS</a>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <img src="./imagenes/hfamiliar.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Habitación Familiar</h5>
+                  <p class="card-text">Con 2 ambientes, 2 cuartos y 2 baños, la suite familiar asegura más espacio y privacidad para las familias, y es la habitación más amplia de todo el resort. </p>
+                  <a href="#" class="btn btn-info">VER MÁS</a>
+                </div>
+              </div>
+        </div>
+    </div>
+
+    <div class="container.fluid reserva my-5 p-3" id="reservar">
+        <div class="row">
+            <h2>RESERVAR</h2>
+
+            <!-- Aca va a ir el calendario de reserva con fecha y dias para completar -->
+
+        </div>
+    </div>
+
+    
+    <div class="container.fluid contacto my-5 p-3" id="contacto">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <section class="sectionContacto">
+                        <h1>CONTACTO</h1>
+                        <form action="#" method="#" id="formulario">
+                            <fieldset>
+                                <div class="mb-3">
+                                    <label for="name">Nombre:</label>
+                                    <input name="nombre"  type="text" id="nombre" required/>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Email:</label>
+                                    <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Escribe tu consulta</label>
+                                    <textarea class="form-control" id="texto" rows="3"></textarea>
+                                </div>        
+                                
+                                <div  id="spinner">
+                                    <div class="sk-chase">
+                                        <div class="sk-chase-dot"></div>
+                                        <div class="sk-chase-dot"></div>
+                                        <div class="sk-chase-dot"></div>
+                                        <div class="sk-chase-dot"></div>
+                                        <div class="sk-chase-dot"></div>
+                                        <div class="sk-chase-dot"></div>
+                                    </div>
+                                </div>
+
+
+                                <input type="submit" value="Enviar" id="enviar">
+                            </fieldset>
+                        </form>
+                    </section>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="mapa">
+                        <h1>¿DÓNDE ESTAMOS?</h1>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28854.468189239982!2d-35.75150233961238!3d-9.659474020346062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x70146fcd6688849%3A0xee2c725b43e07653!2sMacei%C3%B3%2C%20Alagoas%2C%20Brasil!5e0!3m2!1ses-419!2sar!4v1637868358494!5m2!1ses-419!2sar" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+
+
+   
+
+    <footer id="footer">
+        <section class="footerSection">
+                <a href=""><img src="./imagenes/facebook.svg" class="iconosRedes" alt="Facebook"></a>
+                <a href=""><img src="./imagenes/instagram.svg" class="iconosRedes" alt="Instagram"></a>
+                <a href=""><img src="./imagenes/twitter.svg" class="iconosRedes" alt="twitter"></a>
+        </section>
+    </footer>
+    
+
+</main>
+
+<!--Javascript-->
+<script src="./js/miarchivo.js"> </script> 
+<script src="./js/materialize.min.js"> </script> 
+
+     
+</body>
+</html>
