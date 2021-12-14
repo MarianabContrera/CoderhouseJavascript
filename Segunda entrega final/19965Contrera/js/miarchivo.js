@@ -19,7 +19,7 @@ function obtenerReserva() {
   return reserva;
   }
 
-
+  guardarReserva();
 
 
 
@@ -93,6 +93,22 @@ function mostrarError (mensaje) {
 // Enviar email 
 function enviarEmail(e) {
   e.preventDefault();
+
+  let mensajesEnviados = JSON.parse(localStorage.getItem("Mensajes"))
+    if(mensajesEnviados) {
+      mensajesEnviados.push(
+      { nombre: nombre.value,email: email.value, texto: texto.value} 
+      ) 
+      localStorage.setItem("Mensajes", JSON.stringify(mensajesEnviados))
+    } else {
+      let mensajesNoEnviados = []
+      mensajesNoEnviados.push(
+        { nombre: nombre.value,email: email.value, texto: texto.value} 
+      )
+      localStorage.setItem("Mensajes", JSON.stringify(mensajesNoEnviados))
+    }
+
+ console.log(nombre.value);
 
   //Mostrar Spinner
   const spinner = document.querySelector('#spinner');
