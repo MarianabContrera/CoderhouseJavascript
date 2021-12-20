@@ -22,8 +22,8 @@ $('#btnd').on('click', () => {
 
 const habitaciones = [
   {id: 1, nombre: "Individual", precio: 1000},
-  {id: 1, nombre: "Doble", precio: 1500},
-  {id: 1, nombre: "Familiar", precio: 2000}
+  {id: 2, nombre: "Doble", precio: 1500},
+  {id: 3, nombre: "Familiar", precio: 2000}
 
 ]
 
@@ -32,7 +32,7 @@ for (const habitacion of habitaciones) {
   <div>
     <h4>${habitacion.nombre}</h4>
     <b>${habitacion.precio}</b>
-    <button id= "btn${habitacion.id}">Reservacion</button>
+    <button id= "btn${habitacion.id}">Reservar</button>
   </div>
   <hr>
   `)
