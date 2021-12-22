@@ -1,0 +1,13 @@
+[
+    {"id": 1, "nombre": "Individual", "precio": "$1000", "numero":"101"},
+    {"id": 2, "nombre": "Doble", "precio": "$1500", "numero":"102"},
+    {"id": 3, "nombre": "Familiar", "precio": "$2000", "numero":"103"},
+    {"id": 4, "nombre": "Individual", "precio": "$1000", "numero":"201"},
+    {"id": 5, "nombre": "Doble", "precio": "$1500", "numero":"202"},
+    {"id": 6, "nombre": "Familiar", "precio": "$2000", "numero":"203"},
+    {"id": 7, "nombre": "Individual", "precio": "$1000", "numero":"301"},
+    {"id": 8, "nombre": "Doble", "precio": "$1500", "numero":"302"},
+    {"id": 9, "nombre": "Familiar", "precio": "$2000", "numero":"303"}
+
+  
+  ]
